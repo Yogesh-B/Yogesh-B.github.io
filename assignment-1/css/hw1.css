@@ -1,15 +1,16 @@
+/* for week 4 work goto line 50 */
 body{
   padding: 2px;
   margin: 3px auto;
 }
 
 header{
-  background:  url("../images/flywheel.jpg");
+  background: rgb(0,0,0) url("../images/flywheel.jpg");
   text-align: center;
 }
 
 header h1{
-  color:#cceebb;
+  color:rgb(255,255,255);
   margin: 1% 0;
 }
 
@@ -17,33 +18,77 @@ nav a{
   color:#000000;
   text-decoration: none;
   text-align: center;
-  background: #ddeeff88;
+  background: rgba(221,238,255,0.533);
   display: inline-block;
   margin:0 2%;
   width: 15%;
   border-radius: 10px;
+  padding: 2px;
 }
 
-.active{
-  color:#d6fafa;
-  background: #00000066;
+a.active{
+  color:rgb(214,250,250);
+  background: rgba(0,0,0,0.4);
 }
 
 aside{
   float: left;
   width: 25%;
-  background:yellow ;/* just because net not available */
-}
-
-aside{
-  align-content: center;
+  background:rgb(115,156,104) ;
   padding: 2px;
 }
+
 
 aside img{
   border: 3px solid #000000;
   display: block;
   width: 75%;
   height:auto;
-  margin: 2px 0;
+  margin: 7px auto;
 }
+
+/* week 4 work starts here */
+
+table{
+  margin: 2px auto;
+  font-family: script halvetica arial 'times new roman';
+  width:55%;
+}
+table tr:nth-child(odd)
+{  /* odd rows */
+  background : rgba(225,223,35,0.445);
+}
+table tr:nth-child(even)
+{   /* even rows  */
+  background : rgb(222,221,101);
+}
+
+table tr:first-child th{ 
+  /* the heading of table overrides odd and even*/
+  background:linear-gradient(180deg,rgb(110,173,90),rgba(255,255,255,0.357));
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid rgb(110,173,90);
+  color: rgb(35,43,158);
+}
+
+table tr>td{
+  /* all column center */
+  text-align: center;
+  font-style: bold;
+  border: 2px dotted rgb(165,167,16);
+  padding: 2px;
+}
+
+table tr>td:first-child{
+  /* first column override  */
+  text-align:left;
+}
+
+table tr{
+  opacity: .75;/* default opacity */
+}
+
+table tr:hover{
+  opacity: 1;/* opacity full on hover */
+}
+
