@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta content="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> 
+    <!-- <meta content="viewport" content="width=device-width, initial-scale=1" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -15,19 +16,18 @@
         }
 
         div>.col-sm-12 {
-            margin: 100px 0px;
+            margin: 100px 0px;     /*100 0*/
         }
+       
     </style>
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
-
                                         <!-- navigationbar -->
-    <nav class="navbar navbar-expand-sm navbar-inverse fixed-top navbar-dark bg-dark" data-spy="affix"
-        data-offset-top="197">
-
+   
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" data-spy="affix" data-offset-top="197">
         <div class="navbar-header">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
@@ -50,13 +50,13 @@
 
                                         <!-- sections of content -->
     <div class="row text-center">
-        <section class="col-sm-12 container-fluid" id="about_me" style="padding-top:70px;padding-bottom:70px">
+        <section class="col-sm-12 container-fluid" id="about_me">
             <h1>About Me</h1>
             <p>I am Yogesh Bavishi, a Computer Engineering student from <abbr title="Government Engineering College, Rajkot">GEC Rajkot</abbr>.
-                I belong to Barvala Bavishi, a village in Amreli(Gujarat). I like to try new apps and softwares on PC and smartphone. 
+                I belong to Barvala Bavishi, a village in Amreli(Gujarat).  I like to try new apps and softwares on PC and smartphone. 
             </p>
         </section>
-        <section class="col-sm-12  container-fluid" id="education" style="padding-top:70px;padding-bottom:70px">
+        <section class="col-sm-12  container-fluid" id="education">
             <h1>Education</h1>
             <div class="table-responsive-sm">
                 <table class="table">
@@ -97,7 +97,7 @@
             </div>  
         </section>
 
-        <section class="col-sm-12 container-fluid" id="certificates" style="padding-top:70px;padding-bottom:70px">
+        <section class="col-sm-12 container-fluid" id="certificates">
             <h1>Certificates</h1>
             <ul class="list-group">
                 <li class="list-group-item">Building Database Applications in PHP <a href="https://www.coursera.org/account/accomplishments/records/5VTNF4475JY9" class="small">Verifiable On Coursera</a></li>
@@ -109,8 +109,8 @@
         </section>
         <section class="col-sm-12 container-fluid" id="portfolio" style="padding-top:70px;padding-bottom:70px">
             <h1>Portfolio </h1>
-            <p>Final project of course "Building Database Applications in PHP"...<a href="http://gecr.byethost6.com/wa4e/week5code/index.php">Visit</a></p>
-            <p>Final project of course "Introduction to Typography"...<a href="https://github.com/Yogesh-B/GD/raw/master/typeWeek4.pdf">Visit</a></p>
+            <p>Final project of course "Building Database Applications in PHP"...<a href="http://gecr.byethost6.com/wa4e/week5code/index.php" class="small">Visit</a></p>
+            <p>Final project of course "Introduction to Typography"...<a href="https://github.com/Yogesh-B/GD/raw/master/typeWeek4.pdf" class="small">Visit</a></p>
         </section>
     </div>
 
@@ -120,28 +120,28 @@
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-sm-6 mt-md-0 mt-3">
-                    <h5 class="text-uppercase" id="contact">Contact</h5>
+                    <h1 id="contact">Contact</h1> 
                 </div>
                 
                 <hr class="clearfix w-100 d-md-none pb-3">
                 <div class="col-sm-1 mb-md-0 mb-3">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone=919409807975&text=Hi%20Yogesh%2c%0d%0a&source=&data=&app_absent=" ><i class="fa fa-whatsapp" style="font-size: 30px;color: #55cc55;" title="Message on Whatsapp"></i></a>   
+                            <a href="https://api.whatsapp.com/send?phone=919409807975&text=Hi%20Yogesh%2c%0d%0a&source=&data=&app_absent=" ><i class="fa fa-whatsapp" style="font-size: 30px;color:#00e676;" title="Message on Whatsapp"></i></a>   
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-1 mb-md-0 mb-3">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="mailto:yogeshbavishi199@gmail.com?subject = Feedback&body = Message" ><i class="fa fa-envelope-o" style="font-size: 30px;color: #ff0000;" title="Send an Email"></i></a>   
+                            <a href="mailto:yogeshbavishi199@gmail.com?subject = Feedback&body = Message" ><i class="fa fa-envelope-o" style="font-size: 30px;color: #db4437;" title="Send an Email"></i></a>   
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-1 mb-md-0 mb-3">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://www.linkedin.com/in/yogesh-bavishi/" ><i class="fa fa-linkedin-square" style="font-size: 30px;color: #0066ff;" title="LinkedIn Profile"></i></a>   
+                            <a href="https://www.linkedin.com/in/yogesh-bavishi/" ><i class="fa fa-linkedin-square" style="font-size: 30px;color: #0073B0;" title="LinkedIn Profile"></i></a>   
                         </li>
                     </ul>
                 </div>
@@ -155,22 +155,23 @@
                 <div class="col-sm-1 mb-md-0 mb-3">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://www.freecodecamp.org/yogesh-b" ><i class="fa fa-free-code-camp" style="font-size: 30px;color: #1a0827;" title="FreeCodeCamp Profile"></i></a>   
+                            <a href="https://www.freecodecamp.org/yogesh-b" ><i class="fa fa-free-code-camp" style="font-size: 30px;color: #0a0a23;" title="FreeCodeCamp Profile"></i></a>   
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-1 mb-md-0 mb-3">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://t.me/YogeshBavishi1" ><i class="fa fa-telegram" style="font-size: 30px;color: #00b7ff;" title="Message On Telegram"></i></a>   
+                            <a href="https://t.me/YogeshBavishi1" ><i class="fa fa-telegram" style="font-size: 30px;color:#25a3e1;" title="Message On Telegram"></i></a>   
                         </li>
                     </ul>
                 </div>
-                <a href="./index1.html" >Extra stuff of code</a>*best viewed in Chrome desktop
+                <!-- <a href="./index1.html" >Extra stuff of code</a>   EXTRA CODE OF PRACTICALS -->
             </div>
         </div>
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            Yogesh Bavishi
+        <div class="footer-copyright text-center py-3">Copyright © 2020, 
+            Yogesh Bavishi<br/>
+           <span class="small-text">*best viewed in Chrome desktop</span> 
         </div>
     </footer>
 
