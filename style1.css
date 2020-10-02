@@ -1,16 +1,4 @@
-/* .container-fluid{
-    background:#5ae1e6;
-} */
-/* .col-sm-12>h1{
-    text-align: center;
-}
-section{
-    /* temporary/
-    margin:100px 0px;
-} */
-/* body>div.container-fluid{
-    background-color:#343a40;
-} */
+/*Mobile First*/
 body {
     position: relative; 
   }
@@ -86,7 +74,12 @@ body {
   font-size: 1.25rem;
 }
 
-
+footer img{
+  display: none;
+}
+.small{
+  color: #004794;
+}
 
 
 /*desktop here*/
